@@ -34,41 +34,23 @@ export default function LandingPage() {
       <NavbarStyleApple
       navItems={[
         {
-          name: "Home",
-          id: "#hero",
-        },
+          name: "Ana Sayfa",          id: "#hero"},
         {
-          name: "Our Mission",
-          id: "#about",
-        },
+          name: "Misyonumuz",          id: "#about"},
         {
-          name: "Programs",
-          id: "#features",
-        },
+          name: "Programlarımız",          id: "#features"},
         {
-          name: "Impact",
-          id: "#metrics",
-        },
+          name: "Etkimiz",          id: "#metrics"},
         {
-          name: "Leadership",
-          id: "#team",
-        },
+          name: "Ekibimiz",          id: "#team"},
         {
-          name: "Testimonials",
-          id: "#testimonials",
-        },
+          name: "Referanslar",          id: "#testimonials"},
         {
-          name: "Partners",
-          id: "#social-proof",
-        },
+          name: "Ortaklarımız",          id: "#social-proof"},
         {
-          name: "FAQs",
-          id: "#faq",
-        },
+          name: "Sıkça Sorulan Sorular",          id: "#faq"},
         {
-          name: "Contact",
-          id: "#contact",
-        },
+          name: "İletişim",          id: "#contact"},
       ]}
       brandName="Apex Juris"
     />
@@ -77,42 +59,26 @@ export default function LandingPage() {
   <div id="hero" data-section="hero">
       <HeroCarouselLogo
       logoText="Apex Juris"
-      description="Cultivating Future Leaders in Justice, Civic Engagement, and Human Rights. Empowering youth to shape a more just world."
+      description="Türk Hukuk Sistemine, Yasal Gerekliliklere ve Yerel Düzenlemelere Uyumlu İçeriklerle Geleceğin Adalet Liderlerini Yetiştiriyoruz. Gençleri daha adil bir dünya şekillendirmeye güçlendiriyoruz."
       buttons={[
         {
-          text: "Explore Programs",
-          href: "#features",
-        },
+          text: "Programlarımızı Keşfedin",          href: "#features"},
         {
-          text: "Join Our Community",
-          href: "#contact",
-        },
+          text: "Topluluğumuza Katılın",          href: "#contact"},
       ]}
       slides={[
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/vertical-low-angle-shot-building-with-concrete-stairs-beautiful-carvings-roubaix-france_181624-16665.jpg",
-          imageAlt: "Scales of Justice in Grand Hall",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/vertical-low-angle-shot-building-with-concrete-stairs-beautiful-carvings-roubaix-france_181624-16665.jpg",          imageAlt: "Türkiye Adalet Sarayı"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/retro-world-theatre-day-scenes_23-2151211381.jpg",
-          imageAlt: "Parliamentary Chamber with Cinematic Lighting",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/retro-world-theatre-day-scenes_23-2151211381.jpg",          imageAlt: "TBMM Genel Kurulu"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/top-view-typesetting-parts_23-2149609871.jpg",
-          imageAlt: "Legal Bookshelf with Golden Accents",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/top-view-typesetting-parts_23-2149609871.jpg",          imageAlt: "Hukuk Kitaplığı"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/university-students-consulting-with-their-professor-while-standing-hallway_637285-9253.jpg",
-          imageAlt: "Youth Delegates Debating in a Conference Room",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/university-students-consulting-with-their-professor-while-standing-hallway_637285-9253.jpg",          imageAlt: "Genç Hukukçular Tartışıyor"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/hand-gesture-expressing-different-feelings_23-2150061925.jpg",
-          imageAlt: "Abstract Representation of Human Rights",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/hand-gesture-expressing-different-feelings_23-2150061925.jpg",          imageAlt: "İnsan Hakları Teması"},
         {
-          imageSrc: "http://img.b2bpic.net/free-photo/big-building-kilkenny-castle-park-dukes-meadows_181624-22980.jpg",
-          imageAlt: "Classic Architectural Pillars with Spotlight",
-        },
+          imageSrc: "http://img.b2bpic.net/free-photo/big-building-kilkenny-castle-park-dukes-meadows_181624-22980.jpg",          imageAlt: "Adalet Sarayı Girişi"},
       ]}
     />
   </div>
@@ -122,15 +88,11 @@ export default function LandingPage() {
       useInvertedBackground={false}
       heading={[
         {
-          type: "text",
-          content: "Our Mission: Empowering the Next Generation of Civic Leaders",
-        },
+          type: "text",          content: "Misyonumuz: Yeni Nesil Sivil Liderleri Güçlendirmek ve Türk Hukuk Sistemine Uyumlu İçerikler Sunmak"},
       ]}
       buttons={[
         {
-          text: "Learn More",
-          href: "#features",
-        },
+          text: "Daha Fazla Bilgi Edinin",          href: "#features"},
       ]}
     />
   </div>
@@ -142,48 +104,24 @@ export default function LandingPage() {
       useInvertedBackground={true}
       features={[
         {
-          id: "f1",
-          title: "Justice Simulations",
-          descriptions: [
-            "Engage in mock trials, debates, and policy development exercises.",
-            "Develop legal reasoning and advocacy skills.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/women-protesting-together-their-rights_23-2149124678.jpg",
-          imageAlt: "Mock trial simulation",
-        },
+          id: "f1",          title: "Türk Hukuk Simülasyonları",          descriptions: [
+            "Türk hukukunda örnek dava, tartışma ve politika geliştirme senaryolarına katılın.",            "Hukuki muhakeme ve savunuculuk becerilerini geliştirin."],
+          imageSrc: "http://img.b2bpic.net/free-photo/women-protesting-together-their-rights_23-2149124678.jpg",          imageAlt: "Türk Hukuk Simülasyonu"},
         {
-          id: "f2",
-          title: "Civic Leadership Workshops",
-          descriptions: [
-            "Master public speaking, critical thinking, and ethical leadership principles.",
-            "Learn to lead discussions and drive consensus.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/authentic-book-club-scene_23-2150104637.jpg",
-          imageAlt: "Public speaking workshop",
-        },
+          id: "f2",          title: "Sivil Liderlik Atölyeleri",          descriptions: [
+            "Topluluk önünde konuşma, eleştirel düşünme ve etik liderlik ilkelerinde ustalaşın.",            "Tartışmaları yönetmeyi ve fikir birliği sağlamayı öğrenin."],
+          imageSrc: "http://img.b2bpic.net/free-photo/authentic-book-club-scene_23-2150104637.jpg",          imageAlt: "Sivil Liderlik Atölyesi"},
         {
-          id: "f3",
-          title: "Human Rights Advocacy",
-          descriptions: [
-            "Explore international human rights law and global justice issues.",
-            "Develop campaigns and advocate for change.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/people-protesting-with-placards-outdoors-world-environment-day_23-2149571873.jpg",
-          imageAlt: "Human rights discussion",
-        },
+          id: "f3",          title: "İnsan Hakları Savunuculuğu",          descriptions: [
+            "Uluslararası insan hakları hukuku ve küresel adalet sorunlarını inceleyin.",            "Kampanyalar geliştirin ve değişim için savunuculuk yapın."],
+          imageSrc: "http://img.b2bpic.net/free-photo/people-protesting-with-placards-outdoors-world-environment-day_23-2149571873.jpg",          imageAlt: "İnsan Hakları Tartışması"},
         {
-          id: "f4",
-          title: "Constitutional Law Deep Dive",
-          descriptions: [
-            "Analyze landmark legal cases and their impact on society.",
-            "Understand the foundations of democratic governance.",
-          ],
-          imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-american-flag-with-judge-gavel_23-2148230120.jpg",
-          imageAlt: "Studying constitutional law",
-        },
+          id: "f4",          title: "Türk Anayasa Hukuku İncelemeleri",          descriptions: [
+            "Dönüm noktası niteliğindeki Türk hukuki vakalarını ve bunların toplum üzerindeki etkilerini analiz edin.",            "Demokratik yönetişimin temellerini anlayın."],
+          imageSrc: "http://img.b2bpic.net/free-photo/flat-lay-american-flag-with-judge-gavel_23-2148230120.jpg",          imageAlt: "Türk Anayasa Hukuku Çalışmaları"},
       ]}
-      title="Programs Designed for Impact"
-      description="Our meticulously crafted programs develop critical thinking, public speaking, and legal reasoning in an immersive, real-world context."
+      title="Türk Hukuk Sistemine Odaklı Etkili Programlarımız"
+      description="Titizlikle hazırlanmış programlarımız, Türk hukuk sisteminin gerekliliklerine uygun olarak eleştirel düşünme, topluluk önünde konuşma ve hukuki muhakeme becerilerini sürükleyici, gerçek dünya bağlamında geliştirir."
     />
   </div>
 
@@ -194,69 +132,38 @@ export default function LandingPage() {
       useInvertedBackground={false}
       metrics={[
         {
-          id: "m1",
-          value: "500+",
-          title: "Future Leaders Trained",
-          items: [
-            "Participants in 10+ countries",
-            "Diverse backgrounds",
-          ],
+          id: "m1",          value: "500+",          title: "Yetişen Gelecek Liderleri",          items: [
+            "10+ Ülkeden Katılımcılar",            "Çeşitli Arka Planlar"],
         },
         {
-          id: "m2",
-          value: "95%",
-          title: "Program Satisfaction",
-          items: [
-            "Rated 'excellent' or 'very good'",
-            "Continuous improvement",
-          ],
+          id: "m2",          value: "95%",          title: "Program Memnuniyeti",          items: [
+            "'Mükemmel' veya 'Çok İyi' olarak derecelendirildi",            "Sürekli İyileştirme"],
         },
         {
-          id: "m3",
-          value: "20+",
-          title: "Global Partnerships",
-          items: [
-            "NGOs, legal firms, universities",
-            "Expanding network",
-          ],
+          id: "m3",          value: "20+",          title: "Küresel Ortaklıklar",          items: [
+            "STK'lar, Hukuk Firmaları, Üniversiteler",            "Genişleyen Ağ"],
         },
       ]}
-      title="Our Impact in Numbers"
-      description="Measuring the growth and success of our participants in fostering a more just and engaged future."
+      title="Sayılarla Etkimiz: Türk Gençliği İçin Adalet"
+      description="Katılımcılarımızın daha adil ve katılımcı bir gelecek için gösterdiği büyüme ve başarıyı ölçüyoruz."
     />
   </div>
 
   <div id="team" data-section="team">
       <TeamCardTen
       useInvertedBackground={true}
-      title="Meet Our Esteemed Faculty & Mentors"
-      tag="Our Leadership"
+      title="Değerli Akademisyenlerimiz ve Mentorlarımızla Tanışın"
+      tag="Lider Kadromuz"
       membersAnimation="slide-up"
       members={[
         {
-          id: "t1",
-          name: "Dr. Evelyn Reed",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-standing-near-bookshelf-office_23-2148042696.jpg",
-          imageAlt: "Dr. Evelyn Reed",
-        },
+          id: "t1",          name: "Dr. Evelyn Reed",          imageSrc: "http://img.b2bpic.net/free-photo/woman-standing-near-bookshelf-office_23-2148042696.jpg",          imageAlt: "Dr. Evelyn Reed"},
         {
-          id: "t2",
-          name: "Prof. Marcus Thorne",
-          imageSrc: "http://img.b2bpic.net/free-photo/woman-artist-holds-painting-brushes-gray-background-high-quality-photo_114579-23003.jpg",
-          imageAlt: "Prof. Marcus Thorne",
-        },
+          id: "t2",          name: "Prof. Marcus Thorne",          imageSrc: "http://img.b2bpic.net/free-photo/woman-artist-holds-painting-brushes-gray-background-high-quality-photo_114579-23003.jpg",          imageAlt: "Prof. Marcus Thorne"},
         {
-          id: "t3",
-          name: "Ms. Anya Sharma",
-          imageSrc: "http://img.b2bpic.net/free-photo/colleagues-studying-together-exam_23-2149038433.jpg",
-          imageAlt: "Ms. Anya Sharma",
-        },
+          id: "t3",          name: "Ms. Anya Sharma",          imageSrc: "http://img.b2bpic.net/free-photo/colleagues-studying-together-exam_23-2149038433.jpg",          imageAlt: "Ms. Anya Sharma"},
         {
-          id: "t4",
-          name: "Mr. Julian Vance",
-          imageSrc: "http://img.b2bpic.net/free-photo/speaker-talking-tech-conference-exploring-latest-ai-technology-trends_482257-105806.jpg",
-          imageAlt: "Mr. Julian Vance",
-        },
+          id: "t4",          name: "Mr. Julian Vance",          imageSrc: "http://img.b2bpic.net/free-photo/speaker-talking-tech-conference-exploring-latest-ai-technology-trends_482257-105806.jpg",          imageAlt: "Mr. Julian Vance"},
       ]}
       memberVariant="card"
     />
@@ -269,53 +176,23 @@ export default function LandingPage() {
       useInvertedBackground={false}
       testimonials={[
         {
-          id: "test1",
-          name: "Sarah J.",
-          role: "Alumna, Class of 2023",
-          testimonial: "Apex Juris provided an unparalleled experience. The mock trials were incredibly realistic and honed my legal reasoning beyond expectation. Truly transformative!",
-          imageSrc: "http://img.b2bpic.net/free-photo/young-black-ceo-having-fun-after-successful-deal-with-foreign-partners-showing-thumbs-up-indoor-portrait-happy-freelance-african-specialist-fooling-around-office-with-chinese-colleague_197531-3857.jpg",
-          imageAlt: "Sarah J.",
-          icon: Star,
+          id: "test1",          name: "Ayşe Yılmaz",          role: "2023 Mezunu, Hukuk Fakültesi Öğrencisi",          testimonial: "Apex Juris eşsiz bir deneyim sundu. Uygulama mahkemeleri inanılmaz derecede gerçekçiydi ve hukuki muhakeme becerilerimi beklentimin ötesinde geliştirdi. Gerçekten dönüştürücüydü!",          imageSrc: "http://img.b2bpic.net/free-photo/young-black-ceo-having-fun-after-successful-deal-with-foreign-partners-showing-thumbs-up-indoor-portrait-happy-freelance-african-specialist-fooling-around-office-with-chinese-colleague_197531-3857.jpg",          imageAlt: "Ayşe Yılmaz",          icon: Star,
         },
         {
-          id: "test2",
-          name: "Michael K.",
-          role: "Current Participant",
-          testimonial: "The human rights workshops opened my eyes to global injustices and equipped me with the tools to make a difference. Inspiring and empowering!",
-          imageSrc: "http://img.b2bpic.net/free-photo/handsome-confident-man_1098-18449.jpg",
-          imageAlt: "Michael K.",
-          icon: Star,
+          id: "test2",          name: "Can Demir",          role: "Mevcut Katılımcı",          testimonial: "İnsan hakları atölyeleri, küresel adaletsizliklere gözlerimi açtı ve bana fark yaratacak araçları sağladı. İlham verici ve güçlendiriciydi!",          imageSrc: "http://img.b2bpic.net/free-photo/handsome-confident-man_1098-18449.jpg",          imageAlt: "Can Demir",          icon: Star,
         },
         {
-          id: "test3",
-          name: "Emily W.",
-          role: "Aspiring Diplomat",
-          testimonial: "Public speaking was my biggest fear. Apex Juris's coaches transformed my confidence, and now I can articulate complex ideas with clarity and conviction.",
-          imageSrc: "http://img.b2bpic.net/free-photo/positive-woman-making-notes-outdoor-cafe_1262-19014.jpg",
-          imageAlt: "Emily W.",
-          icon: Star,
+          id: "test3",          name: "Elif Kaya",          role: "Gelecek Vadeden Diplomat",          testimonial: "Topluluk önünde konuşma en büyük korkumdu. Apex Juris'in eğitmenleri özgüvenimi dönüştürdü ve şimdi karmaşık fikirleri netlik ve inançla ifade edebiliyorum.",          imageSrc: "http://img.b2bpic.net/free-photo/positive-woman-making-notes-outdoor-cafe_1262-19014.jpg",          imageAlt: "Elif Kaya",          icon: Star,
         },
         {
-          id: "test4",
-          name: "David R.",
-          role: "Legal Studies Student",
-          testimonial: "The depth of the constitutional law modules was exceptional. It felt like being in a real law school, grappling with profound legal concepts.",
-          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-cheerful-casual-male-student-with-notepads-joyfully-looking-camera-library-university_574295-1603.jpg",
-          imageAlt: "David R.",
-          icon: Star,
+          id: "test4",          name: "Mehmet Ali",          role: "Hukuk Çalışmaları Öğrencisi",          testimonial: "Anayasa hukuku modüllerinin derinliği olağanüstüydü. Gerçek bir hukuk fakültesinde, derin hukuki kavramlarla boğuşuyormuş gibi hissettirdi.",          imageSrc: "http://img.b2bpic.net/free-photo/portrait-young-cheerful-casual-male-student-with-notepads-joyfully-looking-camera-library-university_574295-1603.jpg",          imageAlt: "Mehmet Ali",          icon: Star,
         },
         {
-          id: "test5",
-          name: "Jessica P.",
-          role: "Community Activist",
-          testimonial: "Beyond the academics, Apex Juris built a community of passionate peers. The network and mentorship are invaluable.",
-          imageSrc: "http://img.b2bpic.net/free-photo/rad-passion-indy-soulful-spirit_53876-13836.jpg",
-          imageAlt: "Jessica P.",
-          icon: Star,
+          id: "test5",          name: "Zeynep Özdemir",          role: "Toplum Aktivisti",          testimonial: "Akademik konuların ötesinde, Apex Juris tutkulu akranlardan oluşan bir topluluk inşa etti. Bu ağ ve mentorluk paha biçilmez.",          imageSrc: "http://img.b2bpic.net/free-photo/rad-passion-indy-soulful-spirit_53876-13836.jpg",          imageAlt: "Zeynep Özdemir",          icon: Star,
         },
       ]}
-      title="Voices of Our Future Leaders"
-      description="Hear how Apex Juris has shaped the minds and careers of our ambitious participants."
+      title="Geleceğin Hukuk Liderlerinden Sesler"
+      description="Apex Juris'in hırslı katılımcılarımızın zihinlerini ve kariyerlerini nasıl şekillendirdiğini dinleyin."
     />
   </div>
 
@@ -324,19 +201,9 @@ export default function LandingPage() {
       textboxLayout="default"
       useInvertedBackground={true}
       names={[
-        "Global Justice Initiative",
-        "Constitutional Law Society",
-        "Youth Parliament Forum",
-        "International Human Rights Coalition",
-        "Elite Leadership Institute",
-        "Civic Education Alliance",
-        "Future Advocates Network",
-        "World Debate Union",
-        "National Bar Association",
-        "University Law Departments",
-      ]}
-      title="Trusted by Leading Institutions"
-      description="Our programs are recognized and supported by esteemed academic and civic organizations worldwide."
+        "Türkiye Barolar Birliği",        "Adalet Akademisi",        "Türkiye Büyük Millet Meclisi Gençlik Forumu",        "Uluslararası İnsan Hakları Koalisyonu",        "Etkin Liderlik Enstitüsü",        "Sivil Eğitim İttifakı",        "Geleceğin Avukatları Ağı",        "Dünya Münazara Birliği",        "Türkiye Noterler Birliği",        "Üniversite Hukuk Fakülteleri"]}
+      title="Önde Gelen Kurumlar Tarafından Güvenilen"
+      description="Programlarımız, dünya çapındaki saygın akademik ve sivil toplum kuruluşları tarafından tanınmakta ve desteklenmektedir."
       showCard={false}
     />
   </div>
@@ -347,28 +214,16 @@ export default function LandingPage() {
       useInvertedBackground={false}
       faqs={[
         {
-          id: "q1",
-          title: "Who is eligible for Apex Juris programs?",
-          content: "Our programs are designed for ambitious high school students (ages 14-18) with a demonstrated interest in justice, leadership, and civic engagement. Specific program requirements may vary.",
-        },
+          id: "q1",          title: "Apex Juris programlarına kimler katılabilir?",          content: "Programlarımız, adalet, liderlik ve sivil katılım alanlarına ilgi duyan hırslı lise öğrencileri (14-18 yaş) için tasarlanmıştır. Programa özel gereksinimler değişiklik gösterebilir."},
         {
-          id: "q2",
-          title: "What are the benefits of joining Apex Juris?",
-          content: "Participants develop critical thinking, public speaking, legal reasoning, and human rights advocacy skills. They gain invaluable experience, network with peers and mentors, and prepare for careers in law, public service, and diplomacy.",
-        },
+          id: "q2",          title: "Apex Juris'e katılmanın faydaları nelerdir?",          content: "Katılımcılar eleştirel düşünme, topluluk önünde konuşma, hukuki muhakeme ve insan hakları savunuculuğu becerileri geliştirir. Paha biçilmez deneyim kazanır, akranları ve mentorlarla ağ kurar ve hukuk, kamu hizmeti ve diplomasi alanındaki kariyerlere hazırlanırlar."},
         {
-          id: "q3",
-          title: "Do you offer scholarships or financial aid?",
-          content: "Yes, Apex Juris is committed to accessibility. We offer a limited number of need-based scholarships and financial aid options. Please visit our 'Admissions' page for details on how to apply.",
-        },
+          id: "q3",          title: "Burs veya finansal yardım sağlıyor musunuz?",          content: "Evet, Apex Juris erişilebilirliğe önem vermektedir. Sınırlı sayıda ihtiyaç bazlı burs ve finansal yardım seçeneği sunuyoruz. Başvuru detayları için lütfen 'Kabul' sayfamızı ziyaret edin."},
         {
-          id: "q4",
-          title: "What kind of career paths do alumni pursue?",
-          content: "Our alumni often pursue careers as lawyers, judges, diplomats, policymakers, human rights advocates, educators, and leaders in non-profit organizations. Many continue their studies at top universities in law, political science, and international relations.",
-        },
+          id: "q4",          title: "Mezunlar hangi kariyer yollarını izler?",          content: "Mezunlarımız genellikle avukat, yargıç, diplomat, politika yapıcı, insan hakları savunucusu, eğitimci ve sivil toplum kuruluşlarında lider olarak kariyer yaparlar. Birçoğu, hukuk, siyaset bilimi ve uluslararası ilişkiler alanında önde gelen üniversitelerde eğitimlerine devam etmektedir."},
       ]}
-      title="Frequently Asked Questions"
-      description="Find answers to common inquiries about our programs, eligibility, and impact."
+      title="Sıkça Sorulan Sorular: Türk Adalet Sistemi Odaklı Programlarımız"
+      description="Programlarımız, uygunluk kriterleri ve etkimiz hakkında sıkça sorulan soruların yanıtlarını bulun."
       faqsAnimation="slide-up"
     />
   </div>
@@ -377,18 +232,13 @@ export default function LandingPage() {
       <ContactText
       useInvertedBackground={true}
       background={{
-        variant: "radial-gradient",
-      }}
-      text="Ready to Shape the Future of Justice? Join Apex Juris."
+        variant: "radial-gradient"}}
+      text="Adaletin Geleceğini Şekillendirmeye Hazır mısınız? Apex Juris'e Katılın."
       buttons={[
         {
-          text: "Apply Now",
-          href: "#",
-        },
+          text: "Şimdi Başvurun",          href: "#"},
         {
-          text: "Contact Us",
-          href: "#",
-        },
+          text: "Bize Ulaşın",          href: "#"},
       ]}
     />
   </div>
@@ -398,75 +248,47 @@ export default function LandingPage() {
       logoText="Apex Juris"
       columns={[
         {
-          title: "About Us",
-          items: [
+          title: "Hakkımızda",          items: [
             {
-              label: "Our Mission",
-              href: "#about",
-            },
+              label: "Misyonumuz",              href: "#about"},
             {
-              label: "Leadership",
-              href: "#team",
-            },
+              label: "Ekibimiz",              href: "#team"},
             {
-              label: "Impact",
-              href: "#metrics",
-            },
+              label: "Etkimiz",              href: "#metrics"},
           ],
         },
         {
-          title: "Programs",
-          items: [
+          title: "Programlarımız",          items: [
             {
-              label: "Justice Simulations",
-              href: "#features",
-            },
+              label: "Hukuki Simülasyonlar",              href: "#features"},
             {
-              label: "Civic Leadership",
-              href: "#features",
-            },
+              label: "Sivil Liderlik",              href: "#features"},
             {
-              label: "Human Rights",
-              href: "#features",
-            },
+              label: "İnsan Hakları",              href: "#features"},
           ],
         },
         {
-          title: "Resources",
-          items: [
+          title: "Kaynaklar",          items: [
             {
-              label: "FAQs",
-              href: "#faq",
-            },
+              label: "Sıkça Sorulan Sorular",              href: "#faq"},
             {
-              label: "Blog",
-              href: "#",
-            },
+              label: "Blog",              href: "#"},
             {
-              label: "Partnerships",
-              href: "#social-proof",
-            },
+              label: "Ortaklıklar",              href: "#social-proof"},
           ],
         },
         {
-          title: "Connect",
-          items: [
+          title: "İletişim",          items: [
             {
-              label: "Contact Us",
-              href: "#contact",
-            },
+              label: "Bize Ulaşın",              href: "#contact"},
             {
-              label: "Apply",
-              href: "#",
-            },
+              label: "Başvur",              href: "#"},
             {
-              label: "Support Us",
-              href: "#",
-            },
+              label: "Bizi Destekleyin",              href: "#"},
           ],
         },
       ]}
-      copyrightText="© 2024 Apex Juris. All rights reserved."
+      copyrightText="© 2024 Apex Juris. Tüm hakları saklıdır."
     />
   </div>
       </ReactLenis>
