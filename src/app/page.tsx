@@ -52,13 +52,13 @@ export default function LandingPage() {
         {
           name: "İletişim",          id: "#contact"},
       ]}
-      brandName="Apex Juris"
+      brandName="Genç Vizyon"
     />
   </div>
 
   <div id="hero" data-section="hero">
       <HeroCarouselLogo
-      logoText="Apex Juris"
+      logoText="Genç Vizyon"
       description="Türk Hukuk Sistemine, Yasal Gerekliliklere ve Yerel Düzenlemelere Uyumlu İçeriklerle Geleceğin Adalet Liderlerini Yetiştiriyoruz. Gençleri daha adil bir dünya şekillendirmeye güçlendiriyoruz."
       buttons={[
         {
